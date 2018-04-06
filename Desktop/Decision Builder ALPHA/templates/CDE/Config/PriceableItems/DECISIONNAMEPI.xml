@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<priceable_item>
+    <name>DECISIONNAMEPI</name>
+    <description>This is a configuration priceable item for the decision DECISIONNAME.</description>
+    <DisplayDescriptions>
+        <language name="US">DECISIONNAME decision configuration</language>
+        <language name="DE">[DE]</language>
+        <language name="FR">[FR]</language>
+        <language name="IT">[IT]</language>
+        <language name="JP">[JP]</language>
+        <language name="ES">[ES]</language>
+        <language name="GB">[GB]</language>
+        <language name="es-MX">[MX]</language>
+        <language name="pt-BR">[BR]</language>
+        <language name="DA">[DA]</language>
+    </DisplayDescriptions>
+    <DisplayNames>
+        <language name="US">DECISIONNAMEPI</language>
+        <language name="DE">[DE]DECISIONNAMEPI</language>
+        <language name="FR">[FR]DECISIONNAMEPI</language>
+        <language name="IT">[IT]DECISIONNAMEPI</language>
+        <language name="JP">[JP]DECISIONNAMEPI</language>
+        <language name="ES">[ES]DECISIONNAMEPI</language>
+        <language name="GB">[GB]DECISIONNAMEPI</language>
+        <language name="es-MX">[MX]DECISIONNAMEPI</language>
+        <language name="pt-BR">[BR]DECISIONNAMEPI</language>
+        <language name="DA">[DA]DECISIONNAMEPI</language>
+    </DisplayNames>
+    <item_type>usage</item_type>
+    <relationships>
+        <parent></parent>
+    </relationships>
+    <parameter_table>mt/CONFIGPARAMTABLENAME</parameter_table>
+    <counters></counters>
+    <charges></charges>
+    <pipeline>
+        <service_definition>mt/DECISIONNAMESERVICEDEF</service_definition>
+        <product_view>mt/DECISIONNAMEPRODUCTVIEW</product_view>
+    </pipeline>
+    <Mode>Normal</Mode>
+</priceable_item>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<defineservice>
+    <name>mt/DECISIONNAMEPRODUCTVIEW</name>
+    <description>This is a dummy product view for the configuration PI for the DECISIONNAME decision.</description>
+    <ptype>
+        <dn>DECISIONNAMEDummyPVProp</dn>
+        <type>int32</type>
+        <length></length>
+        <required>N</required>
+        <defaultvalue></defaultvalue>
+        <description>This is a dummy PV property.</description>
+    </ptype>
+</defineservice>

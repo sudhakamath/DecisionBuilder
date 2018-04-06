@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<extension>
+    <author>system created</author>
+    <description>Extension for holding system created decisions</description>
+    <type>Pipeline</type>
+    <DefaultNamespace>mt</DefaultNamespace>
+    <level>Custom</level>
+</extension>

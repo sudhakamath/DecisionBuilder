@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<defineservice>
+    <name display_name="CONFIGPARAMTABLENAME" condition_header="Conditions" action_header="Actions" type="Rules" help_url="">mt/CONFIGPARAMTABLENAME</name>
+    <description>This table holds the number of months that the included or free decision will remain active. It is used by the DECISIONNAME decision.</description>
+    <ptype display_name="Months USAGEPINAME Free" action="Y">
+        <dn>NumberOfMonthsIncluded</dn>
+        <type>int32</type>
+        <length></length>
+        <required>Y</required>
+        <defaultvalue>1</defaultvalue>
+        <description>Number of months that USAGEPINAME will be free</description>
+    </ptype>
+</defineservice>

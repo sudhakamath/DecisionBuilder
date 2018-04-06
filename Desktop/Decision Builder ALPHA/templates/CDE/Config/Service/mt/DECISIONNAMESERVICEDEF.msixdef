@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defineservice>
+    <name>mt/DECISIONNAMESERVICEDEF</name>
+    <description>This is a configuration priceable item for the DECISIONNAME decision.</description>
+    <ptype>
+        <dn>DECISIONNAMEDummySDProp</dn>
+        <type>int32</type>
+        <length></length>
+        <required>N</required>
+        <defaultvalue></defaultvalue>
+        <description>This is a dummy SD property.</description>
+    </ptype>
+</defineservice>
